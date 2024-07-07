@@ -32,7 +32,7 @@ export default function Counter() {
 
   useEffect(() => {
     if (count >= 3) {
-      setError("can be more than 3");
+      setError("can't be more than 3");
     } else {
       setError(null);
     }
