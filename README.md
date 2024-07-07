@@ -51,10 +51,12 @@ export default function Counter() {
 }
 
 const root = createRoot(document.getElementById("root"));
-```
+
 function render() {
   callCount = -1;
   root.render(<Counter />);
 }
 
 render();
+
+```
