@@ -1,6 +1,7 @@
 # useState-Model
 this document shows the basic model of useState and how it works.
 
+```
 /* eslint-disable react-refresh/only-export-components */
 import { useEffect } from "react";
 import { createRoot } from "react-dom/client";
@@ -50,7 +51,7 @@ export default function Counter() {
 }
 
 const root = createRoot(document.getElementById("root"));
-
+```
 function render() {
   callCount = -1;
   root.render(<Counter />);
