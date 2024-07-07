@@ -2,7 +2,7 @@
 this document shows the basic model of useState and how it works.
 
 ```
-/* eslint-disable react-refresh/only-export-components */
+
 import { useEffect } from "react";
 import { createRoot } from "react-dom/client";
 
